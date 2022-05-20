@@ -12,11 +12,11 @@ So, the CSV file saves the timestamp and the human flag (whenever the program de
 
 ## How to Use It?
 
-### Installation
+### 1) Installation
 
 You can go ahead and download the code and store the contents in one Directory itself. The directory can be anywhere on your system, it doesn't matter.
 
-### Downloading the Python Modules
+### 2) Downloading the Python Modules
 
 You should download OpenCV, NumPy, and imutils. You can use the below commands:
 
@@ -26,7 +26,7 @@ You should download OpenCV, NumPy, and imutils. You can use the below commands:
  
 OpenCV is used to recognize the humans using it's built-in model. NumPy is used for the algorithms and imutils is used for image/frame processing.
  
-### Explanation of Code
+### 3) Explanation of Code
 
 The first thing it does is that it initializes cv2 and the detector.
 
@@ -37,6 +37,15 @@ In the `detect()` function, it processes the video and puts a box around each hu
 In the `detectByVideo()` function, it reads the video and sends the data to the `detect()` for processing of the video.
 
 Last, but not the least, it asks the user which video to play as there are 5 videos. You can just select either 1, 2, 3, 4, or 5 and it uses the respective video for processing.
+
+### 4) Running the Program
+
+To run the program, open command promt and go to the directory where the Python code is using the `cd` command. Then, use the following command to run the program `python Detector.py` or you can just run the code in whatever IDE you are using.
+
+<img src="https://user-images.githubusercontent.com/50455489/169464167-9a018c93-f589-4f86-86f9-08fa085c09e7.png" width="650" height="300"/>
+<img src="https://user-images.githubusercontent.com/50455489/169464226-f034f229-3659-4767-b46a-dc9f072d0703.PNG" width="650" height="300"/>
+
+In the first image, you can see how the program works and counts the number of humans and in the second image, it gives you the timestamp as well as the human FLAG in the CSV file.
 
 ## Issues & Bugs
 
