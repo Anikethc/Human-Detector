@@ -6,7 +6,7 @@ This Python program detects humans in a video file and saves the data to a CSV f
 
 What this program basically does is that it reads a video file for humans, makes a box around them, and saves the data to a CSV file.
 
-This program was actually an assignment I had to do when I applied for a "Software Developer" job. So, I had to `create a model that detects whether a human is present or not and compute the results in a CSV file`.
+This program was actually an assignment I had to do when I applied for a "Software Developer" internship. So, I had to `create a model that detects whether a human is present or not and compute the results in a CSV file`.
 
 So, the CSV file saves the timestamp and the human flag (whenever the program detects a human). A sample CSV row would be: `2021-08-23 18:28:28 FLAG`. This just says that, at that given time, the program detected a human.
 
